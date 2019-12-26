@@ -5,7 +5,7 @@ int main(){
 	fil=fopen("data.txt","w");
 	for(int i=0; i<50;i++){
 
-		fprintf(fil,"%d,%d,%d",i+1,rand()%100,rand()%100);
+		fprintf(fil,"%d,%d,%d\n",i+1,rand()%100,rand()%100);
 	}
 	fclose(fil);
 	return 0;
